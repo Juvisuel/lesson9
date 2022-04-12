@@ -43,7 +43,7 @@ for i in range(6-hardcore):
         print('отлично!')
         scores += 1
     else:
-        print('неверный ответ')
+        print(f'неверный ответ, правильный ответ {true_date}')
         game_scores +=1
 
 
